@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  
+</head>
+<body>
+    <div class="quiz-container">
+        <div class="authentication-container" style="display: block;">
+            <h2>Login</h2>
+            <input type="text" id="auth-username" placeholder="Username">
+            <input type="password" id="auth-password" placeholder="Password">
+            <button id="login-button">Login</button>
+        </div>
+        <div class="question-container" style="display: none;">
+            <h1 id="question"></h1>
+            <div id="choices" class="choices">
+            </div>
+        </div>
+        <button id="next-button" style="display: none;">Next</button>
+        <div class="results-container" style="display: none;">
+            <h2>Your Score: <span id="score">0</span></h2>
+        </div>
+    </div>
+    <div class="leaderboard-container" style="display: none;">
+        <h2>Leaderboard</h2>
+        <ol id="leaderboard-list"></ol>
+    </div>
+    
+   
+</body>
+<script src="quiz.js"></script>
+</html>

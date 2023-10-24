@@ -1,0 +1,116 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.authentication-container {
+    background-color: #222;
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.authentication-container h2 {
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.authentication-container input[type="text"],
+.authentication-container input[type="password"] {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#login-button {
+    background-color: #6600cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 10px;
+}
+
+#login-button:hover {
+    background-color: #5500aa;
+}
+.quiz-container {
+    background-color: #222;
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.question-container {
+    margin-bottom: 20px;
+}
+
+.choices button {
+    background-color: #6600cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.choices button:hover {
+    background-color: #5500aa;
+}
+
+.user-answer {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+#next-button {
+    background-color: #6600cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#next-button:hover {
+    background-color: #5500aa;
+}
+
+.results-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.leaderboard-container {
+    display: none;
+    background-color: #222;
+    border: 1px solid #555;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#leaderboard-list {
+    list-style: none;
+    padding: 0;
+}
